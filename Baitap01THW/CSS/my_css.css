@@ -1,0 +1,123 @@
+﻿body {
+}
+.header1 {
+    border-style: solid;
+    border-radius: 5px;
+    height: 30px;
+    display:flex;
+    align-items:center;
+}
+    .header1 p{
+        padding-right:10px;
+    }
+    .lh {
+        border-left: 1px solid;
+        border-right:1px solid;
+        padding-left:10px;
+    }
+    .btn {
+        background: #0094ff;
+        padding-left: 10px;
+    }
+        .header1 .icon img{
+            width: 30px;
+            height: 30px;
+            padding-top:4px;
+        }
+    nav {
+        flex: 1;
+        text-align: right;
+        padding-right:10px;
+    }
+.poster {
+    border-style: solid;
+    border-radius: 5px;
+    height:140px;
+    display:flex;
+}
+.header2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: maroon;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+    .danhsach ul {
+        display: inline-block;
+        list-style-type: none;
+        text-align: center;
+    }
+            .danhsach ul li {
+                display: inline-block;
+                margin-right: 5px;
+            }
+                .danhsach ul li a {
+                    text-decoration: none;
+                    color: black;
+                    padding-left:5px;
+                }
+.muc {
+    border-left: 1px solid;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+.ft1{
+    border-style:solid;
+    border-radius: 5px;
+    width:850px;
+    display:flex;
+}
+.footer .ft1 .ft1_1 {
+    border-right:solid red;
+    width:550px;
+}
+.footer .ft1 .ft1_1 img {
+    width: 550px;
+    height: 350px;
+}
+    .footer .ft1 .ft1_1 button{
+        margin:1px;
+    }
+    .footer .ft1 .ft1_1 h1 {
+        color: darkred;
+    }
+.footer .ft1 .ft1_2 .ft1_2_1 {
+    display: inline-block;
+    width:300px;
+    border-bottom:solid red;
+    height:30px;
+}
+    .footer .ft1 .ft1_2 .ft1_2_1 button{
+        float:right;
+        margin-right:4px;
+        margin-top:2px
+    }
+.chu{
+    border-bottom:1px solid;
+}
+    .ft2 {
+        border-style: solid;
+        border-radius: 5px;
+        width: 395px;
+        height: 604px;
+    }
+
+.ft2_1{
+    border-bottom:3px solid red;
+    height:30px;
+}
+.im{
+    width:392px;
+    height:150px;
+    margin-top:20px;
+}
+.ngaythang{
+    text-align:center;
+}
+
+
